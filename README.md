@@ -1,7 +1,7 @@
 weighted-MIL
 ======================
 The attached code implements a multiple-instance learning algorithm for aspect-based 
-sentiment analysis which was proposed in the paper below. In addition, the features 
+sentiment analysis which was proposed in the paper listed below. Moreoever, the features 
 extracted from seven datasets are provided as well for research purposes. If you use 
 them in your research please cite the paper below:
 
