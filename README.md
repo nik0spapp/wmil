@@ -25,7 +25,7 @@ $ pip install scikit-learn
 $ pip install scipy
 ```
 
-Examples
+Running
 ------------
 The code extends BaseEstimator class from scikit-learn, so you should be able to use it as an sklearn estimator. For example:
 ```bash
@@ -38,6 +38,22 @@ $ python
 >>> y = data['Y'][:300]
 >>> model = APWeights(20, e1=0.5, e2=0.5, e3=0.5)
 >>> model.fit(x,y)
->>> mean_absolute_error(model.predict(x),y)
+----------------------------------------------------------------------------------------------------
+e1: 0.500000
+e2: 0.500000
+e3: 0.500000
+M: 957
+N: 300
 
+[+] Training...
+--/start
+iteration 0 -> (MAE: 0.063036) 
+iteration 1 -> (MAE: 0.059849) 
+iteration 2 -> (MAE: 0.059426) 
+iteration 3 -> (MAE: 0.059319) 
+iteration 4 -> (MAE: 0.059292) 
+iteration 5 -> (MAE: 0.059303) 
+--/end
+>>> mean_absolute_error(model.predict(x),y)
+0.067877336959968837
 ```
