@@ -12,8 +12,8 @@ them in your research please cite the paper below:
 Dependencies
 ------------
 The available code requires Python programming language and pip package manager to run. 
-For detailed installing instructions on how to install it along with a package manager 
-please refer to the following links: <br />
+For detailed instructions on how to install it along with a package manager please refer 
+to the following links: <br />
 http://www.python.org/getit/ <br />
 http://www.pip-installer.org/en/latest/
 
