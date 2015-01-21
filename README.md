@@ -5,7 +5,7 @@ sentiment analysis which was proposed in the paper below. In addition, the featu
 extracted from seven datasets are provided as well for research purposes. If you use 
 them in your research please cite the paper below:
 
-<ul><li>Nikolaos Pappas, Andrei Popescu-Belis, <i>Explaining the Stars: Weighted Multiple-Instance Learning for Aspect-Based Sentiment Analysis</i>, Conference on Empirical Methods in Natural Language Processing, 2014
+<ul><li>Nikolaos Pappas, Andrei Popescu-Belis, <i>Explaining the Stars: Weighted Multiple-Instance Learning for Aspect-Based Sentiment Analysis</i>, Conference on Empirical Methods in Natural Language Processing (EMNLP), 2014
 <br /> <a href="http://publications.idiap.ch/downloads/papers/2014/Pappas_EMNLP14_2014.pdf" target="_blank">http://publications.idiap.ch/downloads/papers/2014/Pappas_EMNLP14_2014.pdf</a>
 </li></ul>
 
