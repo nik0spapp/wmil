@@ -27,7 +27,7 @@ $ pip install scipy
 
 Running
 ------------
-The code extends BaseEstimator class from scikit-learn, so you should be able to use it as an sklearn estimator. For example:
+The code extends BaseEstimator class from scikit-learn package, so you should be able to use it as an sklearn estimator. For example:
 ```bash
 $ python
 >>> import pickle
