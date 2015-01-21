@@ -45,12 +45,12 @@ class APWeights(BaseEstimator):
 		converged = False
 		prev_error = sys.maxsize
 		it = 0
-		print "-"*100
-		print "e1: %f" % self.e1
-		print "e2: %f" % self.e2
-		print "e3: %f" % self.e3
-		print "M: %d" % M
-		print "N: %d" % N
+		#print "-"*100
+		#print "e1: %f" % self.e1
+		#print "e2: %f" % self.e2
+		#print "e3: %f" % self.e3
+		#print "M: %d" % M
+		#print "N: %d" % N
 
 		print
 		print "[+] Training..."
