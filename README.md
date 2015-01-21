@@ -13,7 +13,7 @@ Dependencies
 ------------
 The available code requires Python programming language and pip package manager to run. 
 For detailed instructions on how to install it along with a package manager please refer 
-to the following links: http://www.python.org/getit/, http://www.pip-installer.org/en/latest/.
+to the following links: http://www.python.org/getit/ and http://www.pip-installer.org/en/latest/.
 
 After installing them, you should be able to install the following packages: <br />
 ```bash
