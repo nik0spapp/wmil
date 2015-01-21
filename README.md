@@ -3,7 +3,7 @@ weighted-MIL
 The attached code implements the multiple-instance learning algorithm for aspect-based 
 sentiment analysis which was proposed in the paper listed below. Moreoever, the features 
 extracted from seven datasets are provided for research purposes. If you use them in your 
-research please cite the paper below:
+research please cite the following paper:
 
 <ul><li>Nikolaos Pappas, Andrei Popescu-Belis, <i>Explaining the Stars: Weighted Multiple-Instance Learning for Aspect-Based Sentiment Analysis</i>, Conference on Empirical Methods in Natural Language Processing (EMNLP), 2014
 <br /> <a href="http://publications.idiap.ch/downloads/papers/2014/Pappas_EMNLP14_2014.pdf" target="_blank">http://publications.idiap.ch/downloads/papers/2014/Pappas_EMNLP14_2014.pdf</a>
