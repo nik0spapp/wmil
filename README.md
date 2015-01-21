@@ -24,3 +24,20 @@ $ pip install numpy
 $ pip install scikit-learn
 $ pip install scipy
 ```
+
+Examples
+------------
+The code extends BaseEstimator class from scikit-learn, so you should be able to use it as an sklearn estimator. For example:
+```bash
+$ python
+>>> import pickle
+>>> from ap_weights import APWeights
+>>> from sklearn.metrics import mean_absolute_error
+>>> data = pickle.load(open('features/ted_comments.p'))
+>>> x = data['X'][:300]
+>>> y = data['Y'][:300]
+>>> model = APWeights(20, e1=0.5, e2=0.5, e3=0.5)
+>>> model.fit(x,y)
+>>> mean_absolute_error(model.predict(x),y)
+
+```
