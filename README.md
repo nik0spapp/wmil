@@ -17,7 +17,6 @@ to the following links: http://www.python.org/getit/ and http://www.pip-installe
 
 Next, you should be able to install the following packages: <br />
 ```bash
-$ pip install nltk  
 $ pip install numpy 
 $ pip install scikit-learn
 $ pip install scipy
