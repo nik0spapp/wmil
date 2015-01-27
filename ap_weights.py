@@ -9,7 +9,6 @@
 
 import sys
 import numpy as np
-from nltk.corpus import stopwords
 from sklearn import linear_model
 from constrained_rls import cRLS 
 from sklearn.base import BaseEstimator
