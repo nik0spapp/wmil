@@ -1,4 +1,4 @@
-weighted-MIL
+Weighted Multiple-Instance Learning
 ======================
 The attached code implements the multiple-instance learning algorithm for aspect-based 
 sentiment analysis which was proposed in the paper listed below. Moreoever, the features 
