@@ -31,19 +31,28 @@ $ python
 >>> from ap_weights import APWeights
 >>> from sklearn.metrics import mean_absolute_error
 >>> data = pickle.load(open('features/ted_comments.p'))
->>> x = data['X'][:300]
->>> y = data['Y'][:300]
->>> model = APWeights(20, e1=0.5, e2=0.5, e3=0.5)
->>> model.fit(x,y)
+>>> size = len(data['X'])
+>>> x_train = data['X'][:size*0.8]
+>>> y_train = data['Y'][:size*0.8]
+>>> x_test = data['X'][size*0.8:]
+>>> y_test = data['Y'][size*0.8:]
+>>> model = APWeights(20, e1=1.0, e2=1.0, e3=1.0)
+>>> model.fit(x_train, y_train)
 [+] Training...
 --/start
-iteration 0 -> (MAE: 0.063036) 
-iteration 1 -> (MAE: 0.059849) 
-iteration 2 -> (MAE: 0.059426) 
-iteration 3 -> (MAE: 0.059319) 
-iteration 4 -> (MAE: 0.059292) 
-iteration 5 -> (MAE: 0.059303) 
+iteration 0 -> (MAE: 0.107624) 
+iteration 1 -> (MAE: 0.095366) 
+iteration 2 -> (MAE: 0.093712) 
+iteration 3 -> (MAE: 0.093425) 
+iteration 4 -> (MAE: 0.093321) 
+iteration 5 -> (MAE: 0.093277) 
+iteration 6 -> (MAE: 0.093263) 
+iteration 7 -> (MAE: 0.093257) 
+iteration 8 -> (MAE: 0.093254) 
+iteration 9 -> (MAE: 0.093254) 
 --/end
->>> mean_absolute_error(model.predict(x),y)
-0.067877336959968837
+>>> mean_absolute_error(model.predict(x_train),y_train) # training error
+0.10537730503311087
+>>> mean_absolute_error(model.predict(x_test), y_test) # testing error
+0.15997223390146495
 ```
