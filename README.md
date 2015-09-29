@@ -32,10 +32,11 @@ $ python
 >>> from sklearn.metrics import mean_absolute_error
 >>> data = pickle.load(open('features/ted_comments.p'))
 >>> size = len(data['X'])
->>> x_train = data['X'][:size*0.8]
->>> y_train = data['Y'][:size*0.8]
->>> x_test = data['X'][size*0.8:]
->>> y_test = data['Y'][size*0.8:]
+>>> k = int(size*0.8)
+>>> x_train = data['X'][:k]
+>>> y_train = data['Y'][:k]
+>>> x_test = data['X'][k:]
+>>> y_test = data['Y'][k:]
 >>> model = APWeights(20, e1=1.0, e2=1.0, e3=1.0)
 >>> model.fit(x_train, y_train)
 [+] Training...
