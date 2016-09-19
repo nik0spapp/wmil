@@ -9,7 +9,7 @@ features in your research please cite the following paper:
 <br /> <a href="http://publications.idiap.ch/downloads/papers/2014/Pappas_EMNLP14_2014.pdf" target="_blank">http://publications.idiap.ch/downloads/papers/2014/Pappas_EMNLP14_2014.pdf</a>
 </li></ul>
 
-A scalable version of the above algorithm based on stochastic gradient descent can be found here: <a href="http://github.com/nik0spapp/wmil-sgd"> wmil-sgd</a>. 
+A more scalable version of the above algorithm based on stochastic gradient descent can be found here: <a href="http://github.com/nik0spapp/wmil-sgd"> wmil-sgd</a>. 
 
 Dependencies
 ------------
