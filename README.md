@@ -9,6 +9,8 @@ features in your research please cite the following paper:
 <br /> <a href="http://publications.idiap.ch/downloads/papers/2014/Pappas_EMNLP14_2014.pdf" target="_blank">http://publications.idiap.ch/downloads/papers/2014/Pappas_EMNLP14_2014.pdf</a>
 </li></ul>
 
+A scalable version of the above algorith based on stochastic gradient descent can be found here: <a href="http://github.com/nik0spapp/wmil-sgd"> wmil-sgd</a>. 
+
 Dependencies
 ------------
 The available code requires Python programming language and pip package manager to run. 
