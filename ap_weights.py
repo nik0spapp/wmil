@@ -33,19 +33,11 @@ class APWeights(BaseEstimator):
 		return pred
 
 	def fit(self, X, Y):
-<<<<<<< Updated upstream
-		M = X[0].get_shape()[1]      			# number of features
-		N = len(X)				     	# number of bags 
-		F = np.random.ranf((1,M))    			# regression hyperplane
- 		H = np.matrix(np.zeros((N,M)))			# bag representations
-		self.P = []					# instance weights
-=======
 		M = X[0].get_shape()[1]      	# number of features
 		N = len(X)				     	# number of bags
 		F = np.random.ranf((1,M))    	# regression hyperplane
  		H = np.matrix(np.zeros((N,M)))	# bag representations
 		self.P = []						# instance weights
->>>>>>> Stashed changes
 		self.X_w = []					# flatten instances
 		self.Y_w = []					# flatten instance weights
 
