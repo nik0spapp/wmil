@@ -32,7 +32,7 @@ $ python
 >>> from sklearn.metrics import mean_absolute_error
 >>> data = pickle.load(open('features/ted_comments.p'))
 >>> size = len(data['X'])
->>> k = int(size*0.8)
+>>> k = int(size*0.5)
 >>> x_train = data['X'][:k]
 >>> y_train = data['Y'][:k]
 >>> x_test = data['X'][k:]
@@ -41,19 +41,17 @@ $ python
 >>> model.fit(x_train, y_train)
 [+] Training...
 --/start
-iteration 0 -> (MAE: 0.107624) 
-iteration 1 -> (MAE: 0.095366) 
-iteration 2 -> (MAE: 0.093712) 
-iteration 3 -> (MAE: 0.093425) 
-iteration 4 -> (MAE: 0.093321) 
-iteration 5 -> (MAE: 0.093277) 
-iteration 6 -> (MAE: 0.093263) 
-iteration 7 -> (MAE: 0.093257) 
-iteration 8 -> (MAE: 0.093254) 
-iteration 9 -> (MAE: 0.093254) 
+iteration 0 -> (MAE: 0.103437)
+iteration 1 -> (MAE: 0.089629)
+iteration 2 -> (MAE: 0.087793)
+iteration 3 -> (MAE: 0.087565)
+iteration 4 -> (MAE: 0.087523)
+iteration 5 -> (MAE: 0.087515)
+iteration 6 -> (MAE: 0.087510)
+iteration 7 -> (MAE: 0.087511)
 --/end
 >>> mean_absolute_error(model.predict(x_train),y_train) # training error
-0.10537730503311087
+0.096217463769192518
 >>> mean_absolute_error(model.predict(x_test), y_test) # testing error
-0.15997223390146495
+0.16325402985689552
 ```
