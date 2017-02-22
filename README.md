@@ -2,12 +2,22 @@ Weighted multiple-instance learning algorithm
 ======================
 The attached code implements the multiple-instance learning algorithm for aspect-based 
 sentiment analysis which was proposed in the paper listed below. Moreoever, the features 
-extracted from seven datasets are provided for research purposes. If you use the code or
-features in your research please cite the following paper:
+extracted from seven datasets are provided for research purposes. 
 
-<ul><li>Nikolaos Pappas, Andrei Popescu-Belis, <i>Explaining the Stars: Weighted Multiple-Instance Learning for Aspect-Based Sentiment Analysis</i>, Conference on Empirical Methods in Natural Language Processing (EMNLP), 2014
-<br /> <a href="http://publications.idiap.ch/downloads/papers/2014/Pappas_EMNLP14_2014.pdf" target="_blank">http://publications.idiap.ch/downloads/papers/2014/Pappas_EMNLP14_2014.pdf</a>
-</li></ul>
+```
+@InProceedings{pappas14,
+  author    = {Pappas, Nikolaos  and  Popescu-Belis, Andrei},
+  title     = {Explaining the Stars: Weighted Multiple-Instance Learning for Aspect-Based Sentiment Analysis},
+  booktitle = {Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  month     = {October},
+  year      = {2014},
+  address   = {Doha, Qatar},
+  publisher = {Association for Computational Linguistics},
+  pages     = {455--466},
+  url       = {http://www.aclweb.org/anthology/D14-1052}
+}
+```
+
 
 A more scalable version of the above algorithm based on stochastic gradient descent can be found here: <a href="http://github.com/nik0spapp/wmil-sgd"> wmil-sgd</a>. 
 
