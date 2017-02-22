@@ -21,7 +21,7 @@ extracted from seven datasets are provided for research purposes.
 
 A more scalable version of the above algorithm based on stochastic gradient descent can be found here: <a href="http://github.com/nik0spapp/wmil-sgd"> wmil-sgd</a>. 
 
-Dependencies
+Installing dependencies
 ------------
 The available code requires Python programming language and pip package manager to run. 
 For detailed instructions on how to install it along with a package manager please refer 
@@ -34,7 +34,7 @@ $ pip install scikit-learn
 $ pip install scipy
 ```
 
-Running
+Training and testing the model
 ------------
 The code extends BaseEstimator class from scikit-learn package, so you should be able to use it as a common sklearn estimator (check more details on http://scikit-learn.org/stable/). For example:
 ```bash
