@@ -1,6 +1,6 @@
 Weighted multiple-instance learning algorithm
 ======================
-The attached code implements the multiple-instance learning algorithm for aspect-based 
+The attached code is a python implementation of the multiple-instance learning algorithm for aspect-based 
 sentiment analysis which was proposed in the paper listed below. Moreoever, the features 
 extracted from seven datasets are provided for research purposes. 
 
