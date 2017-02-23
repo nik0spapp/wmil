@@ -10,7 +10,7 @@
 import sys
 import numpy as np
 from sklearn import linear_model
-from constrained_rls import cRLS
+from crls import cRLS
 from sklearn.base import BaseEstimator
 from scipy.sparse import lil_matrix, csr_matrix, vstack
 from sklearn.metrics import mean_absolute_error
