@@ -65,6 +65,5 @@ iteration 7 -> (MAE: 0.087511)
 >>> mean_absolute_error(model.predict(x_test), y_test) # testing error
 0.16325402985689552
 ```
-
 ## Contact:
 npappas@idiap.ch
